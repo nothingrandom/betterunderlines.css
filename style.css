@@ -8,13 +8,13 @@ p {
 }
 
 a {
-	color: #000;
+	color: #000;	
 	text-decoration: none;
 	background-image: linear-gradient(to top,
-		rgba(0, 0, 0, 0) 11%,
-		rgba(0, 0, 0, 1) 11%,
-		rgba(0, 0, 0, 1) 16%,
-		rgba(0, 0, 0, 0) 11%
+		transparent 10%,
+		currentColor 10%,
+		currentColor 14%,
+		transparent 10%
 	);
 	text-shadow:
 		.025em 0 0 #fff,
