@@ -1,0 +1,26 @@
+/*https://github.com/nothingrandom/betterunderlines.css*/
+
+p {
+	font-size: 2em;
+	font-family: 'Georgia', serif;
+	/*Some fonts seem to render the linear gradient and text shadow better than others
+	  My personal favorite is Minion*/
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	background-image: linear-gradient(to top,
+		rgba(0, 0, 0, 0) 11%,
+		rgba(0, 0, 0, 1) 11%,
+		rgba(0, 0, 0, 1) 16%,
+		rgba(0, 0, 0, 0) 11%
+	);
+	text-shadow:
+		.025em 0 0 #fff,
+		-.025em 0 0 #fff,
+		.05em 0 0 #fff,
+		-.05em 0 0 #fff,
+		.075em 0 0 #fff,
+		-.075em 0 0 #fff;
+}
